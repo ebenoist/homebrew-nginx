@@ -34,6 +34,7 @@ class Openresty < Formula
       "--http-log-path=#{var}/log/nginx/access.log",
       "--error-log-path=#{var}/log/nginx/error.log",
       "--with-pcre",
+      "--with-auth-req",
       "--with-pcre-jit",
       "--with-cc-opt=#{cc_opt}",
       "--with-ld-opt=#{ld_opt}"
